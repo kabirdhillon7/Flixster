@@ -1,62 +1,70 @@
-# Flix
-Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
+# Flixster
+Flixster is an Android app using Java that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-## Flix Part 2
+## Table of Contents
 
-### User Stories
+- [Description](#description)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Dependencies](#dependencies)
+- [License](#license)
 
-#### REQUIRED (10pts)
+### Description
+- [x] User can view a list of movies (title, poster image, and overview) currently playing in theaters from the Movie Database API.
+- [x] Views are responsive for both landscape/portrait mode.
+  - [x] In portrait mode, the poster image, title, and movie overview is shown.
+  - [x] In landscape mode, the rotated alternate layout should use the backdrop image instead and show the title and movie overview to the right of it.
+- [x] Displays a nice default [placeholder graphic](https://guides.codepath.org/android/Displaying-Images-with-the-Glide-Library#advanced-usage) for each image during loading
+- [x] Improved the user interface by experimenting with styling and coloring.
+- [x] Shows details of movie (ratings using RatingBar, popularity, and synopsis) in a separate activity.
+- [x] Allow video posts to be played in full-screen using the YouTubePlayerView.
 
-- [x] (8pts) Expose details of movie (ratings using RatingBar, popularity, and synopsis) in a separate activity.
-- [x] (2pts) Allow video posts to be played in full-screen using the YouTubePlayerView.
-
-#### BONUS
-
-- [ ] Implement a shared element transition when user clicks into the details of a movie (1 point).
-- [ ] Trailers for popular movies are played automatically when the movie is selected (1 point).
-  - [ ] When clicking on a popular movie (i.e. a movie voted for more than 5 stars) the video should be played immediately.
-  - [ ] Less popular videos rely on the detailed page should show an image preview that can initiate playing a YouTube video.
-- [ ] Add a play icon overlay to popular movies to indicate that the movie can be played (1 point).
-- [ ] Apply data binding for views to help remove boilerplate code. (1 point)
-- [ ] Add a rounded corners for the images using the Glide transformations. (1 point)
-
-### App Walkthough GIF
+### Demo
+#### Current Progress Walkthrough
 
 <img src="https://github.com/kabirdhillon7/Flixster/blob/master/Walkthrough%202.gif" width=250><br>
 
-### Notes
+#### Progress 1 Walkthrough
+<details>
+  <img src="https://github.com/kabirdhillon7/Flixster/blob/master/Walkthrough.gif" width=250><br>
+</details>
 
-## Open-source libraries used
+## Installation
+
+To install and set up the app on your own device, follow these steps:
+
+### Prerequisites
+- Android Studio 4.0 or later
+- Android SDK and Emulator or physical Android device for testing
+- Java Development Kit (JDK) 8 or later installed and configured with Android Studio
+- Gradle 4.0 or later for building the project
+
+### Cloning the repository
+
+- Download and install the latest version of Android Studio.
+- Clone this repository to your local machine using the following command in your terminal:
+```
+git clone https://github.com/kabirdhillon7/Flixster.git
+```
+- Open Android Studio and click on "Open an existing Android Studio project".
+- Navigate to the location where you cloned the repository, select the root folder of the project and click "OK".
+- Wait for Android Studio to build the project and all its dependencies.
+- Connect your Android device to your computer or use the Android emulator.
+- In Android Studio, click on the "Run" button or press Shift+F10 to launch the app on your device.
+
+## Dependencies
+
+This app uses the following dependencies:
+
 - [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
 - [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Android
 
----
+## Contact
 
-## Flix Part 1
+If you have any questions or feedback, you can reach me through the following channels:
 
-### User Stories
-
-#### REQUIRED (10pts)
-- [x] (10pts) User can view a list of movies (title, poster image, and overview) currently playing in theaters from the Movie Database API.
-
-#### BONUS
-- [x] (2pts) Views should be responsive for both landscape/portrait mode.
-   - [x] (1pt) In portrait mode, the poster image, title, and movie overview is shown.
-   - [x] (1pt) In landscape mode, the rotated alternate layout should use the backdrop image instead and show the title and movie overview to the right of it.
-
-- [x] (2pts) Display a nice default [placeholder graphic](https://guides.codepath.org/android/Displaying-Images-with-the-Glide-Library#advanced-usage) for each image during loading
-- [x] (2pts) Improved the user interface by experimenting with styling and coloring.
-- [ ] (2pts) For popular movies (i.e. a movie voted for more than 5 stars), the full backdrop image is displayed. Otherwise, a poster image, the movie title, and overview is listed. Use Heterogenous RecyclerViews and use different ViewHolder layout files for popular movies and less popular ones.
-
-### App Walkthough GIF
-<img src="https://github.com/kabirdhillon7/Flixster/blob/master/Walkthrough.gif" width=250><br>
-
-### Notes
-
-### Open-source libraries used
-
-- [Android Async HTTP](https://github.com/codepath/CPAsyncHttpClient) - Simple asynchronous HTTP requests with JSON parsing
-- [Glide](https://github.com/bumptech/glide) - Image loading and caching library for Androids
+- GitHub: [@kabirdhillon7](https://github.com/kabirdhillon7)
+- LinkedIn: [Kabir Dhillon](https://www.linkedin.com/in/kabirdhillon/)
 
 ## License
 

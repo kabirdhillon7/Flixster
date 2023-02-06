@@ -2,7 +2,6 @@
 Flixster is an Android app using Java that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
 ## Table of Contents
-
 - [Description](#description)
 - [Demo](#demo)
 - [Installation](#installation)
@@ -10,6 +9,7 @@ Flixster is an Android app using Java that allows users to browse movies from th
 - [License](#license)
 
 ### Description
+Some of the main features include:
 - [x] User can view a list of movies (title, poster image, and overview) currently playing in theaters from the Movie Database API.
 - [x] Views are responsive for both landscape/portrait mode.
   - [x] In portrait mode, the poster image, title, and movie overview is shown.
